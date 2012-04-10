@@ -1,0 +1,12 @@
+colorscheme zenburn
+set bg=dark
+
+if has("gui_macvim") && has("gui_running")
+  " see gvimrc.after for cmd-p remapping
+  call janus#add_mapping('ctrlp', 'map', '<D-p>', ':CtrlP<CR>')
+  call janus#add_mapping('ctrlp', 'imap', '<D-p>', '<ESC>:CtrlP<CR>')
+else
+  call janus#add_mapping('ctrlp', 'map', '<C-p>', ':CtrlP<CR>')
+  call janus#add_mapping('ctrlp', 'imap', '<C-p>', '<ESC>:CtrlP<CR>')
+endif
+

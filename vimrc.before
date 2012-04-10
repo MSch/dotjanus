@@ -1,0 +1,8 @@
+call janus#disable_plugin('snipmate-snippets')
+call janus#disable_plugin('snipmate')
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
+set wildignore+=*/vendor/bundle/*

@@ -1,0 +1,11 @@
+set guifont=MenloMensch0\ Regular:h13
+set fuoptions=maxvert,maxhorz
+set go-=T "remove toolbar from GUI
+set go-=m "remove menu from GUI
+set go-=r "hide right scrollbar
+set go-=L "hide left scrollbar
+set cursorline
+colorscheme solarized
+set bg=light
+
+macmenu &File.Print key=<nop>
