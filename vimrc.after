@@ -10,3 +10,4 @@ else
   call janus#add_mapping('ctrlp', 'imap', '<C-p>', '<ESC>:CtrlP<CR>')
 endif
 
+nnoremap <silent> <C-l> :nohl<CR><C-l>
