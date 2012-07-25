@@ -7,3 +7,18 @@
 [submodule "powerline"]
 	path = powerline
 	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule "textobj-user"]
+	path = textobj-user
+	url = https://github.com/kana/vim-textobj-user.git
+[submodule "textobj-underscore"]
+	path = textobj-underscore
+	url = https://github.com/lucapette/vim-textobj-underscore.git
+[submodule "textobj-indent"]
+	path = textobj-indent
+	url = https://github.com/kana/vim-textobj-indent.git
+[submodule "textobj-syntax"]
+	path = textobj-syntax
+	url = https://github.com/kana/vim-textobj-syntax.git
+[submodule "textobj-lastpat"]
+	path = textobj-lastpat
+	url = https://github.com/kana/vim-textobj-lastpat.git
