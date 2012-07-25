@@ -1,6 +1,3 @@
-[submodule "NrrwRgn"]
-	path = NrrwRgn
-	url = https://github.com/chrisbra/NrrwRgn.git
 [submodule "ultisnips"]
 	path = ultisnips
 	url = https://github.com/SirVer/ultisnips.git
